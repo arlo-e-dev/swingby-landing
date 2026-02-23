@@ -309,7 +309,7 @@ export default function BusinessModel() {
                 <li>Target: 500 pickups/month</li>
                 <li>Platform revenue: ~$4K/month</li>
                 <li>Cost: Engineering + infra only</li>
-                <li>Goal: LTV/CAC > 3x</li>
+                <li>Goal: LTV/CAC &gt; 3x</li>
               </ul>
             </div>
             <div className={styles.pathCard} style={{ borderColor: 'rgba(0, 212, 255, 0.25)' }}>
