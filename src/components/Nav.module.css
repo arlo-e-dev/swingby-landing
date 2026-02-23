@@ -30,11 +30,18 @@
   text-decoration: none;
 }
 
+.logoImg {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
 .brandName {
   font-family: 'Space Grotesk', sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
-  background: linear-gradient(135deg, #00D4FF 0%, #FF6B35 100%);
+  background: linear-gradient(135deg, #2979FF 0%, #2979FF 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -55,15 +62,15 @@
 }
 
 .links a:hover {
-  color: #00D4FF;
+  color: #2979FF;
 }
 
 .investorLink {
-  color: rgba(255, 107, 53, 0.9) !important;
+  color: rgba(41, 121, 255, 0.9) !important;
 }
 
 .investorLink:hover {
-  color: #FF6B35 !important;
+  color: #2979FF !important;
 }
 
 .hamburger {

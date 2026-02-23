@@ -17,8 +17,7 @@ export default function Nav() {
     <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
       <div className={styles.inner}>
         <Link to="/" className={styles.brand}>
-          <Logo size={38} />
-          <span className={styles.brandName}>SwingBy</span>
+          <img src={`${import.meta.env.BASE_URL}loopbox-logo.jpg`} alt="LoopBox" className={styles.logoImg} />
         </Link>
 
         <div className={`${styles.links} ${menuOpen ? styles.open : ''}`}>

@@ -7,13 +7,13 @@
 }
 
 :root {
-  --navy: #0A0F2C;
-  --navy-mid: #111827;
-  --navy-light: #1E2A4A;
-  --teal: #00D4FF;
-  --teal-dim: #00A8CC;
-  --orange: #FF6B35;
-  --orange-dim: #E55A28;
+  --navy: #0A1628;
+  --navy-mid: #0D1B2A;
+  --navy-light: #172035;
+  --teal: #2979FF;
+  --teal-dim: #1565C0;
+  --orange: #2979FF;
+  --orange-dim: #1565C0;
   --green: #00E676;
   --white: #FFFFFF;
   --gray-100: #F4F6F8;
@@ -90,7 +90,7 @@ a {
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(0, 212, 255, 0.4);
+  box-shadow: 0 8px 30px rgba(41, 121, 255, 0.4);
 }
 
 .btn-orange {
@@ -100,7 +100,7 @@ a {
 
 .btn-orange:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(255, 107, 53, 0.4);
+  box-shadow: 0 8px 30px rgba(41, 121, 255, 0.4);
 }
 
 .btn-outline {

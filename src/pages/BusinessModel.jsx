@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import Logo from '../components/Logo'
+
 import styles from './BusinessModel.module.css'
 
 export default function BusinessModel() {
@@ -15,8 +15,7 @@ export default function BusinessModel() {
       {/* Nav */}
       <nav className={styles.nav}>
         <Link to="/" className={styles.brand}>
-          <Logo size={32} />
-          <span>SwingBy</span>
+          <img src={`${import.meta.env.BASE_URL}loopbox-logo.jpg`} alt="LoopBox" style={{ height: '32px', width: '32px', borderRadius: '7px', objectFit: 'cover' }} />
         </Link>
         <Link to="/coming-soon?type=investor" className="btn btn-orange" style={{ padding: '0.6rem 1.4rem', fontSize: '0.9rem' }}>
           Request Deck →
@@ -28,7 +27,7 @@ export default function BusinessModel() {
         {/* Header */}
         <div className={styles.header}>
           <div className="section-label">Investor Overview</div>
-          <h1>SwingBy Business Model</h1>
+          <h1>LoopBox Business Model</h1>
           <p>
             Crowdsourced last-mile return logistics. AI-dispatched. Bay Area-first. Built to scale.
             Pre-seed stage · Looking for founding investment.
@@ -54,7 +53,7 @@ export default function BusinessModel() {
             <div className={styles.summaryCard}>
               <div className={styles.summaryLabel}>The Solution</div>
               <p>
-                SwingBy is an Uber-style gig platform that dispatches local drivers to pick up packages
+                LoopBox is an Uber-style gig platform that dispatches local drivers to pick up packages
                 from customers' doors and drop them at the correct carrier location (Amazon, UPS, USPS,
                 FedEx). The entire operations layer — dispatching, pricing, compliance, driver onboarding —
                 is AI-automated. We need only drivers, not an operations headcount.
@@ -247,7 +246,7 @@ export default function BusinessModel() {
               { icon: '💲', stream: 'Surge Pricing Margin', timeline: 'Month 3', desc: 'Dynamic pricing during peak windows (Monday post-weekend returns, post-holiday surges) generates higher revenue per pickup without increasing driver costs proportionally.' },
               { icon: '🏢', stream: 'Business Accounts', timeline: 'Month 6', desc: 'Monthly subscription for offices with regular return volume. SaaS-like recurring revenue. Target: law firms, tech offices, medical practices — anyone doing 10+ returns/month.' },
               { icon: '🤝', stream: 'Carrier Partnership Fees', timeline: 'Year 2', desc: 'Revenue-sharing or referral fees from Amazon, UPS, or USPS for driving volume to their drop-off locations. Precedent: Roadie was acquired by UPS for this exact reason.' },
-              { icon: '📊', stream: 'Return Logistics API', timeline: 'Year 2–3', desc: 'White-label SwingBy dispatch and pickup infrastructure for mid-market e-commerce brands that want to offer return pickup as a service to their customers.' },
+              { icon: '📊', stream: 'Return Logistics API', timeline: 'Year 2–3', desc: 'White-label LoopBox dispatch and pickup infrastructure for mid-market e-commerce brands that want to offer return pickup as a service to their customers.' },
             ].map(r => (
               <div key={r.stream} className="card">
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '0.75rem' }}>
@@ -292,7 +291,7 @@ export default function BusinessModel() {
             <strong>Key advantage:</strong> The OpenClaw AI automation framework runs customer support, 
             driver onboarding triage, dispute resolution, compliance checks, and financial reporting 
             automatically. A traditional logistics startup would need 5–10 operations headcount 
-            to run what SwingBy handles with software. This is the core structural advantage.
+            to run what LoopBox handles with software. This is the core structural advantage.
           </div>
         </section>
 
@@ -344,11 +343,11 @@ export default function BusinessModel() {
           <h2 className={styles.sectionTitle}>Comparable Exits & Acquisitions</h2>
           <p style={{ color: 'var(--gray-300)', marginBottom: '2rem', lineHeight: 1.7 }}>
             The last-mile logistics space has seen significant strategic acquisitions from carriers and e-commerce giants 
-            looking to own the return experience. SwingBy is positioned to be the same kind of target.
+            looking to own the return experience. LoopBox is positioned to be the same kind of target.
           </p>
           <div className={styles.exitsGrid}>
             {[
-              { co: 'Roadie', acquirer: 'Acquired by UPS (2021)', amount: 'Undisclosed', desc: 'Crowdsourced delivery startup. UPS acquired for last-mile gig network. Direct analog to SwingBy.' },
+              { co: 'Roadie', acquirer: 'Acquired by UPS (2021)', amount: 'Undisclosed', desc: 'Crowdsourced delivery startup. UPS acquired for last-mile gig network. Direct analog to LoopBox.' },
               { co: 'Deliv', acquirer: 'Acquired by Target (2020)', amount: 'Undisclosed', desc: 'Same-day delivery marketplace. Acquired for tech and driver network. Validates the gig-logistics acquisition thesis.' },
               { co: 'Happy Returns', acquirer: 'Acquired by PayPal (2021)', amount: 'Undisclosed', desc: 'Return logistics startup. PayPal paid a premium for return infrastructure. Shows major players want to own returns.' },
               { co: 'Optoro', acquirer: 'Raised $140M+', amount: '$140M', desc: 'Return logistics software. Raised significant capital on the return management thesis alone. Market validation.' },
@@ -388,7 +387,7 @@ export default function BusinessModel() {
 
       {/* Footer */}
       <footer style={{ textAlign: 'center', padding: '2rem', color: 'var(--gray-500)', fontSize: '0.85rem', position: 'relative', zIndex: 1 }}>
-        © 2025 SwingBy · Bay Area, California · All figures based on publicly available data
+        © 2025 LoopBox · Bay Area, California · All figures based on publicly available data
       </footer>
     </div>
   )

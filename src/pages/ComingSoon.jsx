@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
-import Logo from '../components/Logo'
+
 import styles from './ComingSoon.module.css'
 
 const typeConfig = {
@@ -15,7 +15,7 @@ const typeConfig = {
   driver: {
     emoji: '🚗',
     label: 'Driver',
-    headline: 'Be a founding SwingBy driver.',
+    headline: 'Be a founding LoopBox driver.',
     sub: 'Founding drivers get priority routes, a higher founding rate, and early access to our AI-optimized dispatch app.',
     cta: 'I Want to Drive — Notify Me',
     color: '#FF6B35',
@@ -31,7 +31,7 @@ const typeConfig = {
   investor: {
     emoji: '📊',
     label: 'Investor',
-    headline: 'Get the SwingBy investor deck.',
+    headline: 'Get the LoopBox investor deck.',
     sub: 'We\'re raising a pre-seed round to prove Bay Area unit economics. Request our deck and a call.',
     cta: 'Request the Deck',
     color: '#FF6B35',
@@ -78,14 +78,13 @@ export default function ComingSoon() {
         {/* Nav */}
         <div className={styles.topBar}>
           <Link to="/" className={styles.back}>
-            ← Back to SwingBy
+            ← Back to LoopBox
           </Link>
         </div>
 
         {/* Logo */}
         <div className={styles.logoWrap}>
-          <Logo size={64} />
-          <span className={styles.logoName}>SwingBy</span>
+          <img src={`${import.meta.env.BASE_URL}loopbox-logo.jpg`} alt="LoopBox" className={styles.logoImg} />
         </div>
 
         {/* Main card */}
@@ -139,7 +138,7 @@ export default function ComingSoon() {
                 Keep an eye out for updates. We're moving fast.
               </p>
               <Link to="/" className="btn btn-outline" style={{ marginTop: '2rem', display: 'inline-block' }}>
-                ← Back to SwingBy
+                ← Back to LoopBox
               </Link>
             </div>
           )}
@@ -147,7 +146,7 @@ export default function ComingSoon() {
 
         {/* Footer note */}
         <div className={styles.footer}>
-          <span>© 2025 SwingBy · Bay Area, CA</span>
+          <span>© 2025 LoopBox · Bay Area, CA</span>
           <span>·</span>
           <Link to="/business-model">Investor Info</Link>
           <span>·</span>

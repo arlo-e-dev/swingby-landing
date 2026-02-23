@@ -35,7 +35,7 @@
   left: -200px;
   width: 700px;
   height: 700px;
-  background: radial-gradient(circle, rgba(0, 212, 255, 0.15) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(41, 121, 255, 0.15) 0%, transparent 70%);
   border-radius: 50%;
   animation: pulse 6s ease-in-out infinite;
 }
@@ -46,7 +46,7 @@
   right: -100px;
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle, rgba(255, 107, 53, 0.12) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(41, 121, 255, 0.12) 0%, transparent 70%);
   border-radius: 50%;
   animation: pulse 6s ease-in-out 3s infinite;
 }
@@ -75,8 +75,8 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: rgba(0, 212, 255, 0.1);
-  border: 1px solid rgba(0, 212, 255, 0.3);
+  background: rgba(41, 121, 255, 0.1);
+  border: 1px solid rgba(41, 121, 255, 0.3);
   border-radius: 50px;
   padding: 0.5rem 1.2rem;
   font-size: 0.85rem;
@@ -190,7 +190,7 @@
 }
 
 .statCard:hover {
-  border-color: rgba(0, 212, 255, 0.3);
+  border-color: rgba(41, 121, 255, 0.3);
   transform: translateY(-4px);
 }
 
@@ -223,8 +223,8 @@
   display: flex;
   align-items: flex-start;
   gap: 2rem;
-  background: rgba(0, 212, 255, 0.05);
-  border: 1px solid rgba(0, 212, 255, 0.15);
+  background: rgba(41, 121, 255, 0.05);
+  border: 1px solid rgba(41, 121, 255, 0.15);
   border-radius: 16px;
   padding: 2.5rem;
 }
@@ -353,7 +353,7 @@
 
 /* ── SHIPPERS ────────────────────────────────────────────────────────────── */
 .shipperSection {
-  background: rgba(0, 212, 255, 0.02);
+  background: rgba(41, 121, 255, 0.02);
 }
 
 .twoColText {
@@ -423,8 +423,8 @@
 }
 
 .tierFeatured {
-  border-color: rgba(255, 107, 53, 0.4);
-  background: rgba(255, 107, 53, 0.06);
+  border-color: rgba(41, 121, 255, 0.4);
+  background: rgba(41, 121, 255, 0.06);
   position: relative;
 }
 
@@ -481,12 +481,12 @@
 
 /* ── DRIVERS ─────────────────────────────────────────────────────────────── */
 .driverSection {
-  background: rgba(255, 107, 53, 0.03);
+  background: rgba(41, 121, 255, 0.03);
 }
 
 .earningsCard {
   background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255, 107, 53, 0.2);
+  border: 1px solid rgba(41, 121, 255, 0.2);
   border-radius: 20px;
   padding: 2.5rem;
   margin-bottom: 3rem;
@@ -532,7 +532,7 @@
 }
 
 .earningsTotal {
-  background: rgba(255, 107, 53, 0.08);
+  background: rgba(41, 121, 255, 0.08);
   border-bottom: none !important;
 }
 
@@ -566,7 +566,7 @@
 }
 
 .techCallout {
-  background: linear-gradient(135deg, rgba(0, 212, 255, 0.08) 0%, rgba(255, 107, 53, 0.08) 100%);
+  background: linear-gradient(135deg, rgba(41, 121, 255, 0.08) 0%, rgba(41, 121, 255, 0.08) 100%);
   border: 1px solid rgba(255,255,255,0.1);
   border-radius: 20px;
   padding: 3rem;
@@ -600,8 +600,8 @@
 }
 
 .phaseActive {
-  border-color: rgba(0, 212, 255, 0.35);
-  background: rgba(0, 212, 255, 0.05);
+  border-color: rgba(41, 121, 255, 0.35);
+  background: rgba(41, 121, 255, 0.05);
 }
 
 .phaseNum {
@@ -677,7 +677,7 @@
 .finalCtaBg {
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at center, rgba(0, 212, 255, 0.1) 0%, transparent 70%);
+  background: radial-gradient(ellipse at center, rgba(41, 121, 255, 0.1) 0%, transparent 70%);
 }
 
 /* ── FOOTER ──────────────────────────────────────────────────────────────── */
