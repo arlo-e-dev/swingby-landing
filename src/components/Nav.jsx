@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import Logo from './Logo'
 import styles from './Nav.module.css'
 
 function scrollTo(id, closeMenu) {
@@ -24,7 +25,8 @@ export default function Nav() {
     <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
       <div className={styles.inner}>
         <Link to="/" className={styles.brand}>
-          <img src={`${import.meta.env.BASE_URL}loopbox-logo.jpg`} alt="LoopBox" className={styles.logoImg} />
+          <Logo size={38} />
+          <span className={styles.brandName}>SwingBy</span>
         </Link>
 
         <div className={`${styles.links} ${menuOpen ? styles.open : ''}`}>
