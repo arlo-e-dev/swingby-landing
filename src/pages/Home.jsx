@@ -77,6 +77,10 @@ export default function Home() {
         </div>
         <div className="container">
           <div className={styles.heroInner}>
+            <div className={styles.heroBrand}>
+              <Logo size={56} />
+              <span className={styles.heroBrandName}>SwingBy</span>
+            </div>
             <div className={styles.heroBadge}>
               <span className={styles.badgeDot} />
               Now Recruiting Founding Drivers · Bay Area, CA
