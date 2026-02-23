@@ -53,7 +53,8 @@
   gap: 2rem;
 }
 
-.links a {
+.links a,
+.navBtn {
   color: rgba(255,255,255,0.8);
   font-size: 0.95rem;
   font-weight: 500;
@@ -61,7 +62,16 @@
   text-decoration: none;
 }
 
-.links a:hover {
+.navBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font-family: inherit;
+}
+
+.links a:hover,
+.navBtn:hover {
   color: #2979FF;
 }
 

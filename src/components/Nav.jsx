@@ -1,7 +1,12 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import Logo from './Logo'
 import styles from './Nav.module.css'
+
+function scrollTo(id, closeMenu) {
+  closeMenu()
+  const el = document.getElementById(id)
+  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+}
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false)
@@ -13,6 +18,8 @@ export default function Nav() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
+  const close = () => setMenuOpen(false)
+
   return (
     <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
       <div className={styles.inner}>
@@ -21,12 +28,12 @@ export default function Nav() {
         </Link>
 
         <div className={`${styles.links} ${menuOpen ? styles.open : ''}`}>
-          <a href="#how-it-works" onClick={() => setMenuOpen(false)}>How It Works</a>
-          <a href="#for-shippers" onClick={() => setMenuOpen(false)}>Shippers</a>
-          <a href="#for-drivers" onClick={() => setMenuOpen(false)}>Drivers</a>
-          <a href="#tech" onClick={() => setMenuOpen(false)}>Tech</a>
-          <Link to="/business-model" className={styles.investorLink} onClick={() => setMenuOpen(false)}>Investors</Link>
-          <Link to="/coming-soon" className="btn btn-primary" style={{ padding: '0.6rem 1.4rem' }} onClick={() => setMenuOpen(false)}>
+          <button className={styles.navBtn} onClick={() => scrollTo('how-it-works', close)}>How It Works</button>
+          <button className={styles.navBtn} onClick={() => scrollTo('for-shippers', close)}>Shippers</button>
+          <button className={styles.navBtn} onClick={() => scrollTo('for-drivers', close)}>Drivers</button>
+          <button className={styles.navBtn} onClick={() => scrollTo('tech', close)}>Tech</button>
+          <Link to="/business-model" className={styles.investorLink} onClick={close}>Investors</Link>
+          <Link to="/coming-soon" className="btn btn-primary" style={{ padding: '0.6rem 1.4rem' }} onClick={close}>
             Sign Up
           </Link>
         </div>
