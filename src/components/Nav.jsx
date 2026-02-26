@@ -32,6 +32,7 @@ export default function Nav() {
         <div className={`${styles.links} ${menuOpen ? styles.open : ''}`}>
           <button className={styles.navBtn} onClick={() => scrollTo('how-it-works', close)}>How It Works</button>
           <button className={styles.navBtn} onClick={() => scrollTo('for-shippers', close)}>Shippers</button>
+          <button className={styles.navBtn} onClick={() => scrollTo('trust', close)}>Trust & Safety</button>
           <button className={styles.navBtn} onClick={() => scrollTo('for-drivers', close)}>Drivers</button>
           <button className={styles.navBtn} onClick={() => scrollTo('tech', close)}>Tech</button>
           <Link to="/business-model" className={styles.investorLink} onClick={close}>Investors</Link>

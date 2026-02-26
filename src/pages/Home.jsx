@@ -323,6 +323,67 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ── TRUST & SAFETY ───────────────────────────────────────────────── */}
+      <section className={`section ${styles.solutionSection}`} id="trust">
+        <div className="container">
+          <AnimSection>
+            <div className={styles.sectionHeader}>
+              <div className="section-label">Trust & Safety</div>
+              <h2>Your package. <span className="gradient-text">Fully accountable.</span></h2>
+              <p className={styles.sectionSub}>
+                We built SwingBy around one principle: you should trust us more than you'd trust dropping 
+                a package off yourself. Here's how we back that up.
+              </p>
+            </div>
+          </AnimSection>
+
+          <AnimSection>
+            <div className={styles.techGrid}>
+              <FeatureCard
+                icon="✅"
+                title="Vetted & Background-Checked Drivers"
+                desc="Every driver passes a comprehensive background check before their first pickup. You're not opening your door to a stranger — you're opening it to a verified professional."
+              />
+              <FeatureCard
+                icon="📍"
+                title="Real-Time Tracking, Every Step"
+                desc="Follow your package from your front door to the carrier drop-off in real time. Live GPS tracking at pick-up, hub, and drop-off."
+              />
+              <FeatureCard
+                icon="📸"
+                title="Photo Confirmations at Each Handoff"
+                desc="Photos captured at pick-up, hub arrival, and carrier drop-off. Timestamped proof your package moved safely through the chain."
+              />
+              <FeatureCard
+                icon="🛡️"
+                title="Fully Insured Handling"
+                desc="Every package is insured. If something goes wrong, you're covered. No guesswork, no loopholes."
+              />
+              <FeatureCard
+                icon="📲"
+                title="QR & Label Scanning at Handoff"
+                desc="Seamless QR or return-label scanning creates a verified digital chain of custody. No manual entry, no human error."
+              />
+              <FeatureCard
+                icon="🔒"
+                title="Chain-of-Custody Verification"
+                desc="Every handoff is logged and verified — from driver pickup to carrier receipt. Full audit trail, always."
+              />
+              <FeatureCard
+                icon="🔔"
+                title="Instant Status Notifications"
+                desc="Get notified the moment your package is picked up, dropped at the hub, and handed to the carrier. No more wondering."
+              />
+              <FeatureCard
+                icon="🎧"
+                title="Responsive Customer Support"
+                desc="Real accountability means real answers. Our support team is reachable and empowered to solve problems — not just close tickets."
+              />
+            </div>
+          </AnimSection>
+        </div>
+      </section>
+
       {/* ── FOR DRIVERS ──────────────────────────────────────────────────── */}
       <section className={`section ${styles.driverSection}`} id="for-drivers">
         <div className="container">
@@ -444,7 +505,7 @@ export default function Home() {
               <FeatureCard
                 icon="🔒"
                 title="Trust & Safety Layer"
-                desc="Background checks, real-time GPS verification, package scan accountability, and driver rating systems create a closed-loop safety system with zero human oversight required."
+                desc="Every driver is background-checked. Every handoff is photo-verified. Every package is insured. Our closed-loop safety system runs without human oversight — and our dedicated trust protocol backs up every pickup."
               />
             </div>
           </AnimSection>
