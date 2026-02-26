@@ -26,7 +26,7 @@ export default function Nav() {
       <div className={styles.inner}>
         <Link to="/" className={styles.brand}>
           <Logo size={38} />
-          <span className={styles.brandName}>SwingBy</span>
+          <span className={styles.brandName}>LoopBox</span>
         </Link>
 
         <div className={`${styles.links} ${menuOpen ? styles.open : ''}`}>

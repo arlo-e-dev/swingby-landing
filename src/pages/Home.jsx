@@ -79,7 +79,7 @@ export default function Home() {
           <div className={styles.heroInner}>
             <div className={styles.heroBrand}>
               <Logo size={56} />
-              <span className={styles.heroBrandName}>SwingBy</span>
+              <span className={styles.heroBrandName}>LoopBox</span>
             </div>
             <div className={styles.heroBadge}>
               <span className={styles.badgeDot} />
@@ -90,7 +90,7 @@ export default function Home() {
               <span className="gradient-text">You carry on.</span>
             </h1>
             <p className={styles.heroSub}>
-              SwingBy is the AI-powered gig platform that sends a driver to your door to handle 
+              LoopBox is the AI-powered gig platform that sends a driver to your door to handle 
               your Amazon returns, UPS drop-offs, and USPS pickups — so you never waste another 
               afternoon stuck in a carrier line.
             </p>
@@ -193,7 +193,7 @@ export default function Home() {
                 </h3>
                 <div className={styles.steps}>
                   <StepCard num="1" icon="📱" title="Open the app" desc="Schedule a pickup in under 60 seconds. Select your carrier (Amazon, UPS, USPS, FedEx), drop-off location, and preferred time window." />
-                  <StepCard num="2" icon="🚗" title="Driver comes to you" desc="A verified, rated SwingBy driver arrives at your door within your chosen window. They scan your package and take custody." />
+                  <StepCard num="2" icon="🚗" title="Driver comes to you" desc="A verified, rated LoopBox driver arrives at your door within your chosen window. They scan your package and take custody." />
                   <StepCard num="3" icon="📍" title="Track it live" desc="Real-time GPS tracking shows your package moving from your door to the carrier. You get a drop-off confirmation with timestamp." />
                   <StepCard num="4" icon="✅" title="Done. Carry on." desc="Carrier tracking number is linked automatically. Your return is in the system. You never left your desk." />
                 </div>
@@ -207,7 +207,7 @@ export default function Home() {
                   🚗 For Drivers
                 </h3>
                 <div className={styles.steps}>
-                  <StepCard num="1" icon="📲" title="Sign up & get verified" desc="Apply online, pass a background check, and get your SwingBy driver kit. The whole process takes less than a week." />
+                  <StepCard num="1" icon="📲" title="Sign up & get verified" desc="Apply online, pass a background check, and get your LoopBox driver kit. The whole process takes less than a week." />
                   <StepCard num="2" icon="🗺️" title="Our AI builds your route" desc="The dispatch engine clusters nearby pickups into efficient routes. More stops per hour means more money — with less driving." />
                   <StepCard num="3" icon="🏃" title="Run your route" desc="Pick up packages, drop them at the carrier. The app guides you turn-by-turn and handles all carrier check-in QR codes." />
                   <StepCard num="4" icon="💳" title="Get paid weekly" desc="Earnings are deposited weekly. No waiting. No games. See your earnings in real-time in the driver app." />
@@ -226,7 +226,7 @@ export default function Home() {
               <div className="section-label">Why Now</div>
               <h2>Three forces are <span className="gradient-text">colliding right now.</span></h2>
               <p className={styles.sectionSub}>
-                The market conditions for SwingBy have never been better.
+                The market conditions for LoopBox have never been better.
               </p>
             </div>
           </AnimSection>
@@ -267,14 +267,14 @@ export default function Home() {
                 <p style={{ color: 'var(--gray-300)', lineHeight: 1.8, marginBottom: '2rem' }}>
                   The average Bay Area tech worker earns over <strong style={{ color: 'white' }}>$80/hour</strong>. 
                   A return trip to UPS costs them <strong style={{ color: 'white' }}>$40–$60 in productive time</strong>.
-                  SwingBy costs a fraction of that — and it comes to your door.
+                  LoopBox costs a fraction of that — and it comes to your door.
                 </p>
 
                 <div className={styles.benefitList}>
                   {[
                     ['🕐', 'On your schedule', 'Same-day and next-day pickup windows. Book before noon, we\'ll be there today.'],
                     ['📦', 'Every major carrier', 'Amazon, UPS, USPS, FedEx — we drop off wherever your label says.'],
-                    ['🔒', 'Fully insured pickups', 'Every SwingBy driver is background-checked, rated, and covered.'],
+                    ['🔒', 'Fully insured pickups', 'Every LoopBox driver is background-checked, rated, and covered.'],
                     ['📱', 'Real-time tracking', 'From your door to the carrier drop-off, watch it happen live.'],
                     ['💰', 'Transparent pricing', 'Flat per-package pricing. No surge nonsense. Know the cost before you book.'],
                   ].map(([icon, title, desc]) => (
@@ -331,7 +331,7 @@ export default function Home() {
               <div className="section-label">Trust & Safety</div>
               <h2>Your package. <span className="gradient-text">Fully accountable.</span></h2>
               <p className={styles.sectionSub}>
-                We built SwingBy around one principle: you should trust us more than you'd trust dropping 
+                We built LoopBox around one principle: you should trust us more than you'd trust dropping 
                 a package off yourself. Here's how we back that up.
               </p>
             </div>
@@ -392,7 +392,7 @@ export default function Home() {
               <div className="section-label" style={{ color: 'var(--orange)' }}>For Drivers</div>
               <h2>More stops. Less driving. <span className="gradient-text">Real money.</span></h2>
               <p className={styles.sectionSub}>
-                SwingBy routes are designed by AI to maximize your stops-per-hour. 
+                LoopBox routes are designed by AI to maximize your stops-per-hour. 
                 You're not chasing one delivery across town — you're running tight loops 
                 through neighborhoods, stacking pickups, and maximizing your time.
               </p>
@@ -469,7 +469,7 @@ export default function Home() {
               <div className="section-label">Technology</div>
               <h2>Carrier-grade logistics. <span className="gradient-text">Startup speed.</span></h2>
               <p className={styles.sectionSub}>
-                SwingBy is an AI-native platform from day one. Most of the company runs on automation —
+                LoopBox is an AI-native platform from day one. Most of the company runs on automation —
                 the humans just drive.
               </p>
             </div>
@@ -514,7 +514,7 @@ export default function Home() {
             <div className={styles.techCallout}>
               <div className={styles.techCalloutInner}>
                 <h3>We're building in public. <span className="gradient-text">Join us.</span></h3>
-                <p>SwingBy is looking for engineers who want to build something that actually ships (pun intended). 
+                <p>LoopBox is looking for engineers who want to build something that actually ships (pun intended). 
                 React Native, Node.js, Postgres, and AI/ML infrastructure. Competitive equity. Small team. Real impact.</p>
                 <Link to="/coming-soon?type=engineer" className="btn btn-outline">
                   👩‍💻 Engineering Roles Opening Soon
@@ -587,7 +587,7 @@ export default function Home() {
               </h2>
               <p style={{ color: 'var(--gray-300)', fontSize: '1.1rem', maxWidth: '560px', margin: '0 auto 2.5rem' }}>
                 Whether you ship packages, want to drive, or want to invest — 
-                SwingBy is building the return logistics platform the Bay Area deserves.
+                LoopBox is building the return logistics platform the Bay Area deserves.
               </p>
               <div className={styles.heroCtas}>
                 <Link to="/coming-soon?type=shipper" className="btn btn-primary" style={{ fontSize: '1.05rem' }}>
@@ -638,7 +638,7 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.footerBottom}>
-            <span>© 2025 SwingBy. All rights reserved.</span>
+            <span>© 2025 LoopBox. All rights reserved.</span>
             <span>Bay Area, California</span>
           </div>
         </div>
